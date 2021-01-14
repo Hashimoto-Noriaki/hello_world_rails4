@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-    
-  end
+    @pochi = "ポチ"
+end
 end
