@@ -1,4 +1,4 @@
 class User < ApplicationRecord
-    validates :account,presense: true, uniqueness: { case_sensitive: false}
+    validates :account,presence: true, uniqueness: {case_sensitive: false}
 end
 
