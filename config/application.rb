@@ -25,6 +25,8 @@ module HelloWorldRails4
       g.helper false
       g.test_framework false
     end
+    config.api_only = true
+    config.middleware.use ActionDispatch::Flash
   end
 end
 
